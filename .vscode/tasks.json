@@ -12,7 +12,8 @@
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}",
 				"-I/usr/include/lime",
-				"-llimesuite"
+				"-llimesuite",
+				"-L/usr/lib/x86_64-linux-gnu"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
