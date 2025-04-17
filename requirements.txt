@@ -1,0 +1,6 @@
+pysdr
+numpy
+scipy
+matplotlib
+pandas
+pyqtgraph
