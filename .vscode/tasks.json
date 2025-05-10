@@ -12,7 +12,8 @@
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-I/usr/include/lime",
                 "-lLimeSuite",
-                "-lrt"
+                "-lrt",
+                "-pthread"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
